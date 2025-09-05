@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #242424;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.page_heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 8px; /* Adjust the border-radius to your preference */
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track:horizontal {
+  background: #f1f1f1;
+  border-radius: 8px; /* Match the border-radius used for scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgb(180, 174, 175);
+  border-radius: 8px; /* Match the border-radius used for scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: rgb(130, 127, 127);
+}
